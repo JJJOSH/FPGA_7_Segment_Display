@@ -1,0 +1,47 @@
+|adder_nbit_top
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+o_sum[0] << o_sum[0].DB_MAX_OUTPUT_PORT_TYPE
+o_sum[1] << o_sum[1].DB_MAX_OUTPUT_PORT_TYPE
+o_sum[2] << o_sum[2].DB_MAX_OUTPUT_PORT_TYPE
+o_sum[3] << o_sum[3].DB_MAX_OUTPUT_PORT_TYPE
+o_HEX[0] << hex_7seg_decoder:DEC0.o_a
+o_HEX[1] << hex_7seg_decoder:DEC0.o_b
+o_HEX[2] << hex_7seg_decoder:DEC0.o_c
+o_HEX[3] << hex_7seg_decoder:DEC0.o_d
+o_HEX[4] << hex_7seg_decoder:DEC0.o_e
+o_HEX[5] << hex_7seg_decoder:DEC0.o_f
+o_HEX[6] << hex_7seg_decoder:DEC0.o_g
+
+
+|adder_nbit_top|adder_nbit:ADD0
+a[0] => Add0.IN3
+a[1] => Add0.IN2
+a[2] => Add0.IN1
+b[0] => Add0.IN6
+b[1] => Add0.IN5
+b[2] => Add0.IN4
+sum[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_nbit_top|hex_7seg_decoder:DEC0
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+o_a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+o_b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+o_c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+o_d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+o_e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+o_f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+o_g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="47" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Library/Interface Protocols/Ethernet,Library/Interface Protocols,Library,Library/Processors and Peripherals/Co-Processors,Library/Memory Interfaces and Controllers,Library/Qsys Interconnect,Library/Interface Protocols/Ethernet/Reference Design Components,Library/University Program/Audio &amp; Video,Library/Processors and Peripherals,Library/Interface Protocols/Ethernet/10G to 1G Multi-rate Ethernet,Library/University Program,Project,Library/Processors and Peripherals/Embedded Processors" />
+ <window width="1100" height="800" x="181" y="38" />
+</preferences>

@@ -1,0 +1,62 @@
+
+/*
+	Project name: 
+		Binary Adder to 7Segment Display
+		
+	Description:
+		This project will calculate the sum of two 3bit numbers from the input switches and output its binary value 
+		on the DE1-SoC LEDs, and its hexadecimal value of the 7segment display.
+		It should work on other boards according to the number of switches / LEDs / 7segments displays present.
+		The default size of the input bus is 3, and it will display a hexadecimal value between 0x0 and 0xF (decimal 15).
+		
+		{dot, a,b,c,d,e,f,g} = hex_7seg_decoder(in_a[2:0] + in_b[2:0]);
+		o_LED                = in_a[2:0] + in_b[2:0];
+		
+	Author: 
+		Ovidiu Plugariu / www.ovisign.com
+		
+    Disclaimer: 
+		Please note that all the source codes are provided "as-is" with no warranty for further usage.
+		For further support or modification, please send an email to ovidiu@ovisign.com
+*/
+
+
+
+
+
+module adder_nbit_top 
+    // Parameters section
+    #( parameter N = 3)
+    // Ports section
+    (input  [N-1:0] i_a,
+     input  [N-1:0] i_b,
+     output [N:0] o_sum,
+	 output [6:0] o_HEX
+	);
+    
+
+    // Instantiate the Nbit adder
+	adder_nbit #(.N(N))
+	    ADD0
+    (   .a  (i_a),
+        .b  (i_b),
+        .sum(o_sum)
+	);
+
+    // Instantiate the 7segment display decoder
+    hex_7seg_decoder  #(.COMMON_ANODE_CATHODE(0)) // 0 for common Anode / 1 for common cathode
+		DEC0
+    (
+        .in (o_sum),
+        .o_a(o_HEX[0]),
+	    .o_b(o_HEX[1]),
+        .o_c(o_HEX[2]),
+        .o_d(o_HEX[3]),
+        .o_e(o_HEX[4]),
+        .o_f(o_HEX[5]),
+        .o_g(o_HEX[6])
+    );	
+  
+endmodule
+
+
