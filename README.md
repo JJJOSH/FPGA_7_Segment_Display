@@ -4,12 +4,12 @@ A seven-segment that displays a representation of numbers entered by the user’
 I used four switches on the MAX10 board, all four switches together represent a four bit binary number which with a combination will result to represent a number. It has switch SW3 represents the most significant bit and the switch SW0 represents the least significant bit. 
 
 # Corresponding switches and results
-**0000 = 0** : displays 0 when all four switches are zero.
-**0001 = 1** : displays 1 when sw3, sw2 and sw1 set to 0 , and sw0 set to 1. 
-**0010 = 2** : displays 2 when sw3, sw2 and sw0 set to 0 , and sw1 set to 1. 
-**0011 = 3** : displays 3 when sw3 and sw2 set to 0 while and sw1 and sw0 set to 1. 
-**0100 = 4** : displays 4 when sw3, sw1 and sw0 set to 0 , and sw12 set to 1. 
-**0101 = 5** : displays 5 when sw3, sw1 set to 0 while and sw2 and sw0 set to 1. 
+**0000 = 0** : displays 0 when all four switches are zero. <br>
+**0001 = 1** : displays 1 when sw3, sw2 and sw1 set to 0 , and sw0 set to 1. <br>
+**0010 = 2** : displays 2 when sw3, sw2 and sw0 set to 0 , and sw1 set to 1. <br>
+**0011 = 3** : displays 3 when sw3 and sw2 set to 0 while and sw1 and sw0 set to 1. <br>
+**0100 = 4** : displays 4 when sw3, sw1 and sw0 set to 0 , and sw12 set to 1. <br>
+**0101 = 5** : displays 5 when sw3, sw1 set to 0 while and sw2 and sw0 set to 1. <br>
 
 
 ****Video recording of the project is also attached****
