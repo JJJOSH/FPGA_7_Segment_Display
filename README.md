@@ -5,6 +5,11 @@ I used four switches on the MAX10 board, all four switches together represent a 
 
 # Corresponding switches and results
 **0000 = 0** : displays 0 when all four switches are zero.
+**0001 = 1** : displays 1 when sw3, sw2 and sw1 set to 0 , and sw0 set to 1. 
+**0010 = 2** : displays 2 when sw3, sw2 and sw0 set to 0 , and sw1 set to 1. 
+**0011 = 3** : displays 3 when sw3 and sw2 set to 0 while and sw1 and sw0 set to 1. 
+**0100 = 4** : displays 4 when sw3, sw1 and sw0 set to 0 , and sw12 set to 1. 
+**0101 = 5** : displays 5 when sw3, sw1 set to 0 while and sw2 and sw0 set to 1. 
 
 
 ****Video recording of the project is also attached****
