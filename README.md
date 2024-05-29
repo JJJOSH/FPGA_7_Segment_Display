@@ -25,5 +25,10 @@ I used four switches on the MAX10 board, all four switches together represent a 
 2. Pin Assignement using the Pin planner in Quartus Prime Software
 3. Programme the MAX 10 Board using the programmer in Quartus Prime Software
 
-# 
+# Pin assignments 
 ![pins](Pins_Assignment.png)
+
+# Results 
+![resultone](Result_1.jpg) <br>
+![result2](Result_2.jpg)
+
