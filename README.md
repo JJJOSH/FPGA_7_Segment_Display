@@ -1,0 +1,2 @@
+# Seven Segment 
+A seven-segment display is a fundamental component used in various electronic devices for showing numerical information, such as the digits on basic calculators. These displays represent the numbers entered by the user or the results of calculations performed based on the user’s input. Each display consists of seven segments (excluding the decimal point), which can be LEDs or liquid crystals. These segments have two states: on and off. Seven-segment displays can represent decimal numbers (0-9) as well as hexadecimal numbers (0-9, A, B, C, D, E, F).
