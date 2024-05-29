@@ -8,5 +8,9 @@ A seven-segment that displays a representation of numbers entered by the user’
 4. ****Seven Segment Display****: This comes with the MAX 10 board choosen for the is project.
 
 # Steps in implementing the design
+1. Design and write the verilog code
+2. Pin Assignement using the Pin planner in Quartus Prime Software
+3. Programme the MAX 10 Board using the programmer in Quartus Prime Software
 
+# 
 ![pins](Pins_Assignment.png)
