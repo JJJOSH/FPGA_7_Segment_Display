@@ -32,3 +32,7 @@ I used four switches on the MAX10 board, all four switches together represent a 
 ![resultone](Result_1.jpg) <br>
 ![result2](Result_2.jpg)
 
+# Video recording of working project
+https://github.com/JJJOSH/FPGA_7_Segment_Display/assets/41205285/edea5c44-627e-43a9-9f6f-a44ffafef83a
+
+
