@@ -1,2 +1,4 @@
 # Seven Segment Display Decoder In FPGA using Verilog
-A seven-segment display is a fundamental component used in various electronic devices for showing numerical information, such as the digits on basic calculators. These displays represent the numbers entered by the user or the results of calculations performed based on the user’s input. Each display consists of seven segments, which can be LEDs or liquid crystals. These segments have two states: on and off. Seven-segment displays can represent decimal numbers (0-9) as well as hexadecimal numbers (0-9, A, B, C, D, E, F).
+A seven-segment that displays a representation of numbers entered by the user’s input have been design and tested. Functional validations of the buttons input resulting to the display of numbers (1, 2, etc) were also tested. Each display consists of seven segments of liquid crystals on the MAX 10 board. These segments have two states: on and off. 
+
+
