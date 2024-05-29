@@ -4,7 +4,8 @@ A seven-segment that displays a representation of numbers entered by the user’
 I used four switches on the MAX10 board, all four switches together represent a four bit binary number which with a combination will result to represent a number. It has switch SW3 represents the most significant bit and the switch SW0 represents at least significant bit. 
 
 # Corresponding switches and results
-**0000 = 0**
+**0000 = 0** : displays 0 when all four switches are zero.
+
 
 ****Video recording of the project is also attached****
 
