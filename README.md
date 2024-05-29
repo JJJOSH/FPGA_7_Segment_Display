@@ -4,6 +4,8 @@ A seven-segment that displays a representation of numbers entered by the user’
 # Things needed 
 1. ****MAX 10 FPGA Board****
 2. ****Quartus Prime****
+3. ****USB Cable****
+4. ****Seven Segment Display****: ****This comes with the MAX 10 board choosen for the is project.****
 
 # Steps in implementing the design
 
