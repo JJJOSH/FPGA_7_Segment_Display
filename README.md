@@ -13,7 +13,7 @@ I used four switches on the MAX10 board, all four switches together represent a 
 1. ****MAX10 D10 Lite FPGA board****
 2. ****Quartus Prime****
 3. ****USB Cable****
-4. ****Seven Segment Display****: This comes with the MAX 10 board choosen for the is project.
+4. ****Seven Segment Display****: This comes with the MAX 10 board chosen for this project.
 
 # Steps in implementing the design
 1. Design and write the verilog code
