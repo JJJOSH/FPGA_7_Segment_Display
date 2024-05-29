@@ -1,7 +1,7 @@
 # Seven Segment Display using FPGA and Verilog HDL
 A seven-segment that displays a representation of numbers entered by the user’s input have been design and tested. Functional validations of the buttons input resulting to the display of numbers (1, 2, etc) were also tested. Each display consists of seven segments of liquid crystals on the MAX 10 board. These segments have two states: on and off. 
 
-I used four switches on the MAX10 board, all four switches together represent a four bit binary number which with a combination will result to represent a number. It has switch SW3 represents the most significant bit and the switch SW0 represents at least significant bit. 
+I used four switches on the MAX10 board, all four switches together represent a four bit binary number which with a combination will result to represent a number. It has switch SW3 represents the most significant bit and the switch SW0 represents the least significant bit. 
 
 # Corresponding switches and results
 **0000 = 0** : displays 0 when all four switches are zero.
